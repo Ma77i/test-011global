@@ -3,13 +3,8 @@ import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
 
 
-const required = {
-  value: true,
-  message: "This field is required",
-};
-
-
 const SignIn = ({ onSubmit, userError, setError }) => {
+  // react hook form
   const {
     register,
     handleSubmit,

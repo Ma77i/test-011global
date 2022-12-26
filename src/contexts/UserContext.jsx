@@ -3,7 +3,8 @@ import { createContext, useState } from "react";
 export const UserContext = createContext();
 
 export const UserProvider = ({ children }) => {
-  
+
+  // local states
   const [userData, setUserData] = useState({});
   const [userError, setUserError] = useState(null);
 

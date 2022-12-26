@@ -6,10 +6,14 @@ import { UserContext } from "../contexts/UserContext";
 
 
 const StocksContainer = () => {
-  const [stocks, setStocks] = useState([]);
-  const { userData } = useContext(UserContext);
+  // react hook form
   const navigate = useNavigate()
+  // local states
+  const [stocks, setStocks] = useState([]);
+  // use context hook
+  const { userData } = useContext(UserContext);
 
+  // get stocks function
   const getStocks = async () => {
     try {
       const res = await API.post("/GetStockPrices", { UserToken: userData });
@@ -19,13 +23,17 @@ const StocksContainer = () => {
     }
   };
 
+  // use effect hook
   useEffect(() => {
+    // call to get stocks function
     getStocks();
 
+    // set timeout that redirects to home page after 2 minutes
     setTimeout(() => {
       navigate("/");
     }, 2 * 60 * 1000);
 
+    // set interval for update prices every 5 seconds
     const interval = setInterval(() => {
       getStocks();
     }, 5000);

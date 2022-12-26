@@ -2,13 +2,8 @@ import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 
 
-const required = {
-  value: true,
-  message: "This field is required",
-};
-
-
 const SignUp = ({ onSubmit, userError, setError }) => {
+  // react hook form
   const {
     register,
     handleSubmit,
@@ -26,11 +21,11 @@ const SignUp = ({ onSubmit, userError, setError }) => {
         <input
           type="email"
           placeholder="Email"
-          {...register("Email", { required })}
+          {...register("Email", { required: "This field is required" })}
           className="border border-lightGrey rounded-xl py-2 px-4"
         />
-        {errors.email && (
-          <span className="text-red text-xs">{errors.email.message}</span>
+        {errors.Email && (
+          <span className="text-red text-xs">{errors.Email.message}</span>
         )}
       </div>
 
@@ -39,11 +34,11 @@ const SignUp = ({ onSubmit, userError, setError }) => {
         <input
           type="password"
           placeholder="Password"
-          {...register("Password", { required })}
+          {...register("Password", { required: "This field is required" })}
           className="border border-lightGrey rounded-xl py-2 px-4"
         />
-        {errors.password && (
-          <span className="text-red text-xs">{errors.password.message}</span>
+        {errors.Password && (
+          <span className="text-red text-xs">{errors.Password.message}</span>
         )}
       </div>
       {userError && (

@@ -9,11 +9,14 @@ const buttonClasses =
   "text-center text-black font-bold uppercase px-4 py-2 bg-orange hover:text-white rounded-xl mx-1";
 
 const SignContainer = () => {
+  // react router dom
   const param = useParams();
   const navigate = useNavigate();
 
+  // use context hook
   const { userError, setUserData, setUserError } = useContext(UserContext);
 
+  // submit form
   const onSubmit = async (data) => {
     const AgentToken = import.meta.env.VITE_AGENT_TOKEN;
     const { Email } = data;
