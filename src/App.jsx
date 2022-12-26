@@ -7,7 +7,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/sign/:signs' element={<SignContainer />} />
+        <Route path='/sign' element={<SignContainer />} />
+        <Route path='/sign/:sign' element={<SignContainer />} />
       </Routes>
     </BrowserRouter>
   )
