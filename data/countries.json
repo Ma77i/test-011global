@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "name": "USA",
+    "name": "United-states",
     "flag": "assets/images/flags/usa-flag.png",
     "plans": [
       {"type": "esim", "lowPrice": 15},
