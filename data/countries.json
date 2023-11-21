@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "name": "Israel",
+    "flag": "assets/images/flags/israel-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "USA",
+    "flag": "assets/images/flags/usa-flag.png",
+    "plans": [
+      {"type": "esim", "lowPrice": 15},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Qatar",
+    "flag": "assets/images/flags/qatar-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Austria",
+    "flag": "assets/images/flags/austria-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Belgium",
+    "flag": "assets/images/flags/belgium-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Bulgaria",
+    "flag": "assets/images/flags/bulgaria-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Croatia",
+    "flag": "assets/images/flags/croatia-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Cyprus",
+    "flag": "assets/images/flags/cyprus-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Czech Republic",
+    "flag": "assets/images/flags/czech-republic-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Denmark",
+    "flag": "assets/images/flags/denmark-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Finland",
+    "flag": "assets/images/flags/finland-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "esim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 10},
+    ]
+  },
+    {
+    "id": 12,
+    "name": "France",
+    "flag": "assets/images/flags/france-flag.png",
+    "plans": [
+      {"type": "esim", "lowPrice": 15},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Germany",
+    "flag": "assets/images/flags/germany-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Greece",
+    "flag": "assets/images/flags/greece-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Hungary",
+    "flag": "assets/images/flags/hungary-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Ireland",
+    "flag": "assets/images/flags/ireland-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Italy",
+    "flag": "assets/images/flags/italy-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Latvia",
+    "flag": "assets/images/flags/latvia-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Lithuania",
+    "flag": "assets/images/flags/lithuania-flag.png",
+    "plans": [
+      {"type": "esim", "lowPrice": 15},
+      {"type": "data", "lowPrice": 20}
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Malta",
+    "flag": "assets/images/flags/malta-flag.png",
+    "plans": [
+      {"type": "sim", "lowPrice": 10},
+      {"type": "data", "lowPrice": 20}
+    ]
+  }
+]
