@@ -1,4 +1,4 @@
-{
+[
   {
     "id": 1,
     "name": "Israel",
@@ -96,7 +96,7 @@
     "plans": [
       {"type": "sim", "lowPrice": 10},
       {"type": "esim", "lowPrice": 10},
-      {"type": "data", "lowPrice": 10},
+      {"type": "data", "lowPrice": 10}
     ]
   },
     {
@@ -180,4 +180,4 @@
       {"type": "data", "lowPrice": 20}
     ]
   }
-  }
+]
