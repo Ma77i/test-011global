@@ -1,4 +1,4 @@
-[
+{
   {
     "id": 1,
     "name": "Israel",
@@ -180,4 +180,4 @@
       {"type": "data", "lowPrice": 20}
     ]
   }
-]
+  }
